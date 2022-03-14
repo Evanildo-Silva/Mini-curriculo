@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Raleway:wght@100;200;400;700&display=swap');
+
+:root {
+	--cor-base-texto: #333333;
+	--cor-texto-vermelho: #B44C4C;
+	--cor-icone-vermelho-escuro: #6D0200;
+	--cor-icone-preto-claro: #3B3B3B;
+	--cor-icone-preto-escuro: #272727;
+	--cor-icone-laranja-claro: #AD4E24;
+	--cor-icone-laranja-escuro: #A23A07;
+	--cor-icone-amarelo-claro: #C87B2B;
+	--cor-icone-amarelo-escuro: #C46F08;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Raleway', sans-serif;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	height: 81px;
+	left: 32px;
+	top: 32px;
+}
+
+.logo {
+	position: absolute;
+	width: 100%;
+	height: 19px;
+	left: 32px;
+	top: 38px;
+}
+
+.nome {
+	position: absolute;
+	width: 100%x;
+	height: 66px;
+	left: 950px;
+	top: 47px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+.atualmente {
+	color: var(--cor-texto-vermelho);
+	position: absolute;
+	width: 100%;
+	height: 66px;
+	left: 550px;
+	top: 96px;
+	
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.exp {
+	position: absolute;
+	width: 100%;
+	height: 36px;
+	left: 1px;
+	top: 160px;
+
+	background: #EEEEEE;
+}
+
+.infoPessoais {
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #000000;
+}
+.tituloInfo {
+	position: absolute;
+	width: 100%;
+	height: 262px;
+	left: 36px;
+	top: 16px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+
+	color: #000000;
+}
+
+.descriçaoInfoPessoais {
+	position: absolute;
+	width: 100%px;
+	height: 1px;
+	left: 36px;
+	top: 200px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	/* or 200% */
+
+	text-align: left;
+
+	color: #000000;
+}
+
+.job {
+	position: absolute;
+	width: 100%;
+	height: 458px;
+	left: 0px;
+	top: 800px;
+}
+
+.exp1 {
+	position: absolute;
+	width: 100%;
+	height: 36px;
+	left: 1px;
+	top: -246px;
+
+	background: #EEEEEE;
+}
+
+.tituloJob {
+	position: absolute;
+	width: 217px;
+	height: 19px;
+	left: 36px;
+	top: 16px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #000000;
+}
+
+.first{
+	position: absolute;
+	width: 827px;
+	height: 162px;
+	left: 32px;
+	top: -200px;
+}
+
+.rodaPe {
+
+	position: absolute;
+	width: 550px;
+	height: 360px;
+	left: 1px;
+	top: 664px;
+}
+
+.profissao {
+	color: var(--cor-texto-vermelho);
+	
+}
+
+#conteiner-end {
+	background-color: var(--cor-icone-preto-escuro);
+}
+
+#link-end {
+	background-color: var(--cor-icone-preto-claro);
+}
+
+#conteiner-tel {
+	background-color: var(--cor-icone-vermelho-escuro);
+}
+
+#link-tel {
+	background-color: var(--cor-texto-vermelho);
+}
+
+#conteiner-email{
+	background-color: var(--cor-icone-laranja-escuro);
+}
+
+#link-email {
+	background-color: var(--cor-icone-laranja-claro);
+}
+
+#conteiner-github {
+	background-color: var(--cor-icone-amarelo-escuro);
+}
+
+#link-github {
+	background-color: var(--cor-icone-amarelo-claro);
+}
+
+.rodaPe{
+	/*display: flex;
+	flex-direction: row;*/
+	width: 100%;
+	top: 740px;
+}
+
+.linha{
+	display: flex;
+	height: 4rem;
+	flex-direction: row;
+}
+
+.linha a{
+	color: white;
+	flex: 5;
+
+	line-height: 4rem;
+	text-decoration: none;
+}
+
+.container-img {
+	align-items: center;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+.container-img img {
+	height: 1.5rem;
+}
